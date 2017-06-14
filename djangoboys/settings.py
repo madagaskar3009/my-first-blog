@@ -25,7 +25,8 @@ SECRET_KEY = 'ufe!q+tw$rit4p_7$79y&-x3th_6aq+2a8%3(h1u8^9a6y3h(g'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ('thumbsupjournal.pythonanywhere.com',
+                 '127.0.0.1', )
 
 
 # Application definition
