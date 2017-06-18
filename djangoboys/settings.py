@@ -25,8 +25,7 @@ SECRET_KEY = 'ufe!q+tw$rit4p_7$79y&-x3th_6aq+2a8%3(h1u8^9a6y3h(g'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ('thumbsupjournal.pythonanywhere.com',
-                 '127.0.0.1', )
+ALLOWED_HOSTS = ['.pythonanywhere.com', '127.0.0.1', 'localhost:8000']
 
 
 # Application definition
@@ -128,3 +127,5 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
 SITE_ID = 1
+
+LOGIN_REDIRECT_URL = '/'
